@@ -1,9 +1,10 @@
 import './App.css';
+import { HomeScreen } from './ui/screens/HomeScreen';
 
 function App() {
   return (
     <div className="App">
-      hello world
+      <HomeScreen />
     </div>
   );
 }
